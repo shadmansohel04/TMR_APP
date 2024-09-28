@@ -1,0 +1,13 @@
+:root {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}

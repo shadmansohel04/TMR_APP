@@ -1,0 +1,126 @@
+#root {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodyBox{
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  width: 90%;
+  overflow: hidden;
+}
+
+h1{
+  font-size: 2rem;
+  padding: 2%;
+
+}
+
+.wheelWrap{
+  width: 30%;
+  height: 70%;
+}
+
+
+.wheelWrap h2{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.leftSide{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  grid-auto-rows: minmax(100px, auto); 
+  gap: 20px;
+}
+
+.wheelBox{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+}
+
+.wheel{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wheelIMG{
+  height: 80%;
+  width: 45%;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrow{
+  transform: inherit;
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  top: 10%;
+  transition: all 0.3s ease-in-out;
+}
+
+.robot{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 340px;
+  position: relative;
+}
+
+.rotating{
+  width: 50%;
+}
+
+.robot{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.onesection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.claw {
+  width: 50%;
+  /* transform: scaleX(0.5); */
+  margin-top: 50%;
+}
+
+
+.wholeThing{
+  width: 70%;
+  /* transform: translateY(50px); */
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.centered{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+  height: 80%;
+}
